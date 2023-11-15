@@ -94,6 +94,7 @@ body {
 .skills-color {
   background: #9022ff;
   height: 600px;
+  
 }
 h2 {
   text-align: center;
@@ -123,37 +124,37 @@ h2 {
 }
 .bar1 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar1 2s forwards;
 }
 .bar2 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar2 2s forwards;
 }
 .bar3 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar3 2s forwards;
 }
 .bar4 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar4 2s forwards;
 }
 .bar5 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar5 2s forwards;
 }
 .bar6 {
   height: 20px;
-  background-color: black;
+  background-color:black;
   border-radius: 10px;
   animation: bar6 2s forwards;
 }
@@ -354,6 +355,7 @@ h2 {
   display: flex;
   justify-content: center;
   text-align: center;
+  font-family: "Arial-Bold", Helvetica;
 }
 
 .conteiner-input {
@@ -370,7 +372,21 @@ h2 {
 .titulo {
   color: #ff1b1b;
   text-align: center;
-  font-size: 36px;
+  font-size: 41px; 
+  font-family: "Arial-Bold", Helvetica;
+}
+
+.titulo:hover{
+  color: black;
+
+}
+input {
+  width: 363px;
+  height: 59px;
+  margin-top: 35px;
+  margin-left: 25px;
+  
+  
 }
 
 .descripcion {
@@ -379,27 +395,34 @@ h2 {
   height: 112px;
 }
 
-input {
-  width: 363px;
-  height: 59px;
-  margin-top: 35px;
-  margin-left: 25px;
-}
-
 .boton {
   background: #233451;
   width: 167px;
   height: 56px;
   color: white;
+  
 }
 
 .boton:hover {
-  border-radius: 54px;
-  background: #233451;
-  box-shadow: 29px 29px 58px #121b29, -29px -29px 58px #344d79;
+  background: black;
+  color: #0fe63e;
+
 }
 .containerboton {
-  /* / border: solid; */
+
   display: flex;
   justify-content: center;
 }
+
+input:hover{
+  /* background: black; */
+  color: #0fe63e;
+  font-size: 20px;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+
+  background: rgb(17,17,17);
+  background: linear-gradient(90deg, rgba(17,17,17,1) 0%, rgba(29,30,30,0.9781162464985994) 55%, rgba(13,215,203,1) 100%);
+
+}
+
