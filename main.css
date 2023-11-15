@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 *{
     margin: 0;
     padding: 0;
@@ -122,3 +123,198 @@ h2{
     0%{width: 0;}
     100%{width: 30%;}
 }
+=======
+@font-face {
+  font-family: "Arial-Regular";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/653a98e4fe9c72e81aaadc15/fonts/audiowide-regular.ttf")
+    format("truetype");
+}
+
+@font-face {
+  font-family: "Arial-Bold";
+  src: url("https://anima-uploads.s3.amazonaws.com/projects/653e91e15650ba167f907146/fonts/fontsfree-net-arial-bold.ttf")
+    format("truetype");
+}
+
+.PORTFOLIO {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+
+}
+
+.PORTFOLIO .div {
+  background-color: #ffffff;
+  overflow: hidden;
+  width: 960px;
+  position: relative;
+}
+.PORTFOLIO .super-posicion-1 {
+  position: relative;
+  width: 960px;
+  height: 424px;
+  background-color: #ffd232;
+}
+.PORTFOLIO .text-portafolio {
+  position: absolute;
+  top: 42px;
+  left: 399px;
+  font-family: "Arial-Bold", Helvetica;
+  font-weight: 700;
+  color: #00ad83;
+  font-size: 36px;
+  letter-spacing: 0;
+  line-height: normal;
+  white-space: nowrap;
+}
+
+.PORTFOLIO .image-1 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 641px;
+}
+
+.PORTFOLIO .image-2 {
+  position: absolute;
+  width: 142px;
+  height: 92px;
+  top: 235px;
+  left: 486px;
+}
+.PORTFOLIO .image-3 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 335px;
+}
+
+.PORTFOLIO .image-4 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 236px;
+  left: 182px;
+}
+
+.PORTFOLIO .image-5 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 641px;
+}
+
+.PORTFOLIO .image-6 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 486px;
+}
+
+.PORTFOLIO .image-7 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 334px;
+}
+
+.PORTFOLIO .image-8 {
+  position: absolute;
+  width: 140px;
+  height: 92px;
+  top: 130px;
+  left: 183px;
+}
+
+
+
+
+/* cristhian */
+.contenedor_cinco {
+  display: flex;
+  width: 960px;
+  height: 258px;
+  background-color: rgba(63, 78, 98, 1);
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+.cuatro_image {
+  display: flex;
+  align-items: center;
+  text-align: center;
+  margin-top: 20px;
+}
+.mover_image {
+  margin-bottom: 5px;
+}
+.clientes {
+  color: rgba(173, 255, 40, 1);
+}
+
+/* cesar */
+
+.main {
+  background: #1687a0;
+
+  width: 960px;
+  height: 600px;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+
+.conteiner-input {
+  width: 960px;
+
+  /* / border: solid rgb(0, 255, 119); / */
+
+  justify-content: center;
+  margin-top: 40px;
+}
+
+/* / .titulo / */
+
+.titulo {
+  color: #ff1b1b;
+  text-align: center;
+  font-size: 36px;
+}
+
+.descripcion {
+  /* / border: solid; / */
+  width: 759px;
+  height: 112px;
+}
+
+input {
+  width: 363px;
+  height: 59px;
+  margin-top: 35px;
+  margin-left: 25px;
+}
+
+.boton {
+  background: #233451;
+  width: 167px;
+  height: 56px;
+  color: white;
+}
+
+.boton:hover {
+  border-radius: 54px;
+  background: #233451;
+  box-shadow: 29px 29px 58px #121b29, -29px -29px 58px #344d79;
+}
+.containerboton {
+  /* / border: solid; */
+  display: flex;
+  justify-content: center;
+}
+>>>>>>> b9d50ffacc9b515073f2269f003ad0735af4b0d2
