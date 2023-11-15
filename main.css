@@ -1,23 +1,38 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
-
 body{
-    background: url(https://i.postimg.cc/gJ6kD8Jq/test.jpg);
+    background-color: white;
     background-position: center;
     background-size: 100%;
     margin-top: 300px;
     width: 960px;
-}
-
-.skills {
-    max-width: 700px;
+    display: flex;
     margin: auto;
-    background-color: rgba(255, 255, 255, 0.6);
+}
+.skills-color{
+    background: #9022FF;
+    height: 600px;
+    
+}
+h2{
+    text-align: center;
+    color: #26CC4B;
+    font-size: 36px;
+    line-height: 100px;
+}
+.skills {
+    max-width: 800px;
+    margin: auto;
+    background-color: rgba(255, 255, 255, 0.1);
+    color: white;
+    font-size: 18px;
     display: flex;
     flex-direction: column;
-    border: solid white;
+
+        
 }
 
 .skills-sub {
