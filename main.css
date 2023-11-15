@@ -83,3 +83,27 @@ body{
     font-size: 25px;
     font-weight: bold;
 }
+
+/* BLOQUE 5 */
+.contenedor_cinco{
+    display: flex;
+    width: 960px;
+    height: 258px;
+    background-color:rgba(63, 78, 98, 1);
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+.cuatro_image{
+    display: flex;
+    align-items: center;
+    text-align: center;
+    margin-top: 20px;
+}
+.mover_image{
+    margin-bottom: 5px;
+}
+.clientes{
+    color: rgba(173, 255, 40, 1);
+    ;
+}
