@@ -1,129 +1,219 @@
-<<<<<<< HEAD
-*{
-    margin: 0;
-    padding: 0;
-    font-family: Arial, Helvetica, sans-serif;
+* {
+  margin: 0;
+  padding: 0;
+  font-family: Arial, Helvetica, sans-serif;
 }
-body{
-    background-color: white;
-    background-position: center;
-    background-size: 100%;
-    margin-top: 300px;
-    width: 960px;
-    display: flex;
-    margin: auto;
+body {
+  background-color: white;
+  background-position: center;
+  background-size: 100%;
+  margin-top: 300px;
+  width: 960px;
+  display: flex;
+  margin: auto;
 }
-.skills-color{
-    background: #9022FF;
-    height: 600px;
-    
+
+/* BLOQUE 1 */
+.contenedor {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  height: 525px;
+  background-image: url(https://i.postimg.cc/TYd6vj5m/image-1-1.png);
+  background-size: cover;
+  background-position: center;
+  align-items: center;
 }
-h2{
-    text-align: center;
-    color: #26CC4B;
-    font-size: 36px;
-    line-height: 100px;
+.contenedor_uno {
+  display: flex;
+  flex-direction: column;
+}
+.contenedor_uno h1 {
+  display: flex;
+  width: 200px;
+  justify-content: center;
+  margin-bottom: 180px;
+  padding-left: 40px;
+  font-size: 50px;
+  color: aliceblue;
+  margin-left: 255px;
+}
+.info {
+  display: flex;
+  width: 300px;
+  font-size: 36px;
+  line-height: 42px;
+  color: aliceblue;
+  margin-right: 500px;
+  margin-bottom: 80px;
+  background: rgba(114, 153, 254, 0.5);
+  border-radius: 10px;
+  text-align: center;
+}
+/* BLOQUE 2 */
+.contenedor_dos {
+  display: flex;
+  width: 960px;
+  justify-content: center;
+  height: 424px;
+  background-color: rgba(114, 153, 254, 1);
+}
+.sobremi {
+  display: flex;
+  justify-content: center;
+  font-size: 36px;
+  margin-top: 20px;
+  font-weight: bolder;
+  color: rgba(29, 6, 167, 1);
+}
+.texto {
+  color: rgba(248, 248, 248, 1);
+  font-size: 14px;
+  width: 800px;
+  line-height: 24px;
+  margin-top: 50px;
+}
+.curriculum {
+  display: flex;
+  background-color: rgba(209, 111, 255, 1);
+  box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
+  width: 187px;
+  height: 62px;
+  border-radius: 25px;
+  text-align: center;
+  align-items: center;
+  justify-content: center;
+  margin-top: 20px;
+}
+.cv {
+  font-size: 25px;
+  font-weight: bold;
+  color: white;
+}
+
+.skills-color {
+  background: #9022ff;
+  height: 600px;
+}
+h2 {
+  text-align: center;
+  color: #26cc4b;
+  font-size: 36px;
+  line-height: 100px;
 }
 .skills {
-    max-width: 800px;
-    margin: auto;
-    background-color: rgba(255, 255, 255, 0.1);
-    color: white;
-    font-size: 18px;
-    display: flex;
-    flex-direction: column;
-
-        
+  max-width: 800px;
+  margin: auto;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: white;
+  font-size: 18px;
+  display: flex;
+  flex-direction: column;
 }
 
 .skills-sub {
-    margin-bottom: 15px;
+  margin-bottom: 15px;
 }
 
 .bar {
-    height: 20px;
-    background-color: #fff;
-    border-radius: 10px;
-    animation: test 2s forwards;
+  height: 20px;
+  background-color: #fff;
+  border-radius: 10px;
+  animation: test 2s forwards;
 }
-.bar1{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar1 2s forwards;
- 
+.bar1 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar1 2s forwards;
 }
-.bar2{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar2 2s forwards;
- 
+.bar2 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar2 2s forwards;
 }
-.bar3{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar3 2s forwards;
- 
+.bar3 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar3 2s forwards;
 }
-.bar4{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar4 2s forwards;
- 
+.bar4 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar4 2s forwards;
 }
-.bar5{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar5 2s forwards;
- 
+.bar5 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar5 2s forwards;
 }
-.bar6{
-    height: 20px;
-    background-color: black;
-    border-radius: 10px;
-    animation: bar6 2s forwards;
- 
+.bar6 {
+  height: 20px;
+  background-color: black;
+  border-radius: 10px;
+  animation: bar6 2s forwards;
 }
 @keyframes test {
-    0%{width: 0;}
-    100%{width: 100%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 100%;
+  }
 }
 
 @keyframes bar1 {
-    0%{width: 0;}
-    100%{width: 40%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 40%;
+  }
 }
 @keyframes bar2 {
-    0%{width: 0;}
-    100%{width: 30%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
 }
 @keyframes bar3 {
-    0%{width: 0;}
-    100%{width: 20%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 20%;
+  }
 }
 @keyframes bar4 {
-    0%{width: 0;}
-    100%{width: 10%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 10%;
+  }
 }
 @keyframes bar5 {
-    0%{width: 0;}
-    100%{width: 50%;}
-
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 50%;
+  }
 }
 @keyframes bar6 {
-    0%{width: 0;}
-    100%{width: 30%;}
+  0% {
+    width: 0;
+  }
+  100% {
+    width: 30%;
+  }
 }
-=======
 @font-face {
   font-family: "Arial-Regular";
   src: url("https://anima-uploads.s3.amazonaws.com/projects/653a98e4fe9c72e81aaadc15/fonts/audiowide-regular.ttf")
@@ -141,7 +231,6 @@ h2{
   display: flex;
   flex-direction: row;
   justify-content: center;
-
 }
 
 .PORTFOLIO .div {
@@ -232,9 +321,6 @@ h2{
   left: 183px;
 }
 
-
-
-
 /* cristhian */
 .contenedor_cinco {
   display: flex;
@@ -317,4 +403,3 @@ input {
   display: flex;
   justify-content: center;
 }
->>>>>>> b9d50ffacc9b515073f2269f003ad0735af4b0d2
